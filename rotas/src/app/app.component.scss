@@ -1,0 +1,8 @@
+.navbar {
+    .nav-link, .navbar-brand {
+        cursor: pointer;
+    }
+    .nav-link a:active, a:focus {
+        color: #FFF;
+    }
+}
