@@ -31,7 +31,7 @@
 
 ## Input Properties
 
-**Componente que passa um valor:**
+**Componente (pai) que passa um valor:**
 
 * **HTML:** 
 
@@ -41,7 +41,7 @@
 
       var-externa: any = 'O que quer ser passado';
 
-**Componente que recebe um valor:**
+**Componente (filho) que recebe um valor:**
 
 * **HTML:**
       
