@@ -98,7 +98,7 @@
 
 **TS:** 
 
-    ViewChild('varInput') campoValorInput: HTMLElement;
+    @ViewChild('varInput') campoValorInput: HTMLElement;
 
     valor() {
         console.log(this.campoValorInput);          		// mostra o valor no campo input
@@ -106,4 +106,9 @@
 
 ## Importar Bootstrap
 
-    @import "~bootstrap/dist/css/bootstrap.min.css";
+    @import "~bootstrap/dist/css/bootstrap.min.css";    // styles.css na raíz da aplicação
+    
+    "styles": [
+      'styles.css', 
+      '../node_modules/bootstrap/dist/css/bootstrap.min.css'  // importa no arquivo angular-cli.json
+    ]      
