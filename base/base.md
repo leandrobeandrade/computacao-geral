@@ -111,4 +111,12 @@
     "styles": [
       'styles.css', 
       '../node_modules/bootstrap/dist/css/bootstrap.min.css'  // importa no arquivo angular-cli.json
-    ]      
+    ]
+    
+## Criar projeto com Scss:
+
+    ng new My_New_Project --style=scss
+
+## Mudar o tipo de Css depois do projeto criado:
+
+    ng set defaults.styleExt scss
