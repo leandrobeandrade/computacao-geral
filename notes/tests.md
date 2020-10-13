@@ -72,9 +72,14 @@
 
       interpolation?: [string, string]  interpolation: ['<|', '|>']
       
-      <p> ---{{ clicks + 1 }}--- </p>         <p> <| clicks + 1 |> </p>
+      <p> {{ clicks + 1 }} </p>         <p> <| clicks + 1 |> </p>
 
 - **entryComponents? -** Um conjunto de componentes que devem ser compilados junto com este componente. Para cada componente listado aqui, o Angular cria um ComponentFactory e o armazena no ComponentFactoryResolver.
 
+      entryComponents: any[]        -       entryComponents: [OtherComponent]
+       
+- **preserveWhitespaces? -** Para preservar true ou falso para remover caracteres de espaço em branco potencialmente supérfluos do modelo compilado. Os caracteres de espaço em branco são aqueles que correspondem à classe de caracteres **\s** em expressões regulares JavaScript. O padrão é falso, a menos que seja substituído nas opções do compilador.
+
+      preserveWhitespaces?: boolean     -       preserveWhitespaces: true
 
 **LINK DE REFERÊNCIA:** https://angular.io/api/core/Component
