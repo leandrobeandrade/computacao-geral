@@ -82,4 +82,5 @@
 
       preserveWhitespaces?: boolean     -       preserveWhitespaces: true
 
+
 **LINK DE REFERÊNCIA:** https://angular.io/api/core/Component
