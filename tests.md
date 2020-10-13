@@ -63,15 +63,18 @@
 
 - **encapsulamento? -** Uma política de encapsulamento para o modelo e estilos CSS:
 
-    - ViewEncapsulation.Native: Obsoleto. Em vez disso, use ViewEncapsulation.ShadowDom.
-    - ViewEncapsulation.Emulated: Use CSS com shim que emula o comportamento nativo.
-    - ViewEncapsulation.None: Use CSS global sem qualquer encapsulamento.
-    - ViewEncapsulation.ShadowDom: Use Shadow DOM v1 para encapsular estilos.
+    - **ViewEncapsulation.Native:** Obsoleto. Em vez disso, use ViewEncapsulation.ShadowDom.
+    - **ViewEncapsulation.Emulated:** Usa CSS que emula o comportamento nativo.
+    - **ViewEncapsulation.None:** Usa CSS global sem qualquer encapsulamento.
+    - **ViewEncapsulation.ShadowDom:** Usa o Shadow DOM v1 para encapsular estilos.
 
-- **interpolation? -** Substitui os delimitadores de início e fim de encapsulamento padrão ({{e}})
+- **interpolation? -** Substitui os delimitadores de início e fim de encapsulamento padrão **`{{ e }}`**
 
-entryComponents?
-Um conjunto de componentes que devem ser compilados junto com este componente. Para cada componente listado aqui, o Angular cria um ComponentFactory e o armazena no ComponentFactoryResolver.
+      interpolation?: [string, string]  interpolation: ['<|', '|>']
+      
+      <p> ---{{ clicks + 1 }}--- </p>         <p> <| clicks + 1 |> </p>
+
+- **entryComponents? -** Um conjunto de componentes que devem ser compilados junto com este componente. Para cada componente listado aqui, o Angular cria um ComponentFactory e o armazena no ComponentFactoryResolver.
 
 
-**LINK:** https://angular.io/api/core/Component
+**LINK DE REFERÊNCIA:** https://angular.io/api/core/Component
