@@ -1,4 +1,4 @@
-# @ngModule()
+# @NgModule()
 
 > Define um módulo que contém componentes, diretivas, pipes e provedores.
 
