@@ -1,5 +1,7 @@
 # @Component
 
+> Decorator que marca uma classe como um componente Angular e fornece metadados de configuração que determinam como o componente deve ser processado, instanciado e usado em tempo de execução.
+
 - **changeDetection? -** A estratégia de detecção de alterações a ser usada para este componente. Membros **onPush** e **default**:
 
     - `onPush:` Usa a estratégia CheckOnce, o que significa que a detecção automática de mudança é desativada até ser reativada, definindo a estratégia como Padrão (CheckAlways). A detecção de alterações ainda pode ser chamada explicitamente. Essa estratégia se aplica a todas as diretivas filhas e não pode ser substituída.
