@@ -61,7 +61,7 @@
 
       animations?: any[]        -       animations: [trigger(...)]
 
-- **encapsulamento? -** Uma política de encapsulamento para o modelo e estilos CSS:
+- **encapsulation? -** Uma política de encapsulamento para o modelo e estilos CSS:
 
     - **ViewEncapsulation.Native:** Obsoleto. Em vez disso, use ViewEncapsulation.ShadowDom.
     - **ViewEncapsulation.Emulated:** Usa CSS que emula o comportamento nativo.
