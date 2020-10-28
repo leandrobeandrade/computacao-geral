@@ -38,7 +38,7 @@
         <button (click)="movieplayer.play()">
     </video>
 
-#### O símbolo `*` transforma o elemento atual em um modelo embutido. Equivalente a: <ng-template [myDirective]="myExpression">...</ng-template>
+#### O símbolo `*` transforma o elemento atual em um modelo embutido. Equivalente a: <ng-template [myDirective]="myExpression"> ... </ng-template>
 
     <p *myDirective="myExpression"> ... </p>
 
