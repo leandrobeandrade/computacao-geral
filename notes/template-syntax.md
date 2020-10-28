@@ -1,12 +1,4 @@
-# Guia de Dicas
-
-> **Bootstrapping -** Inicializa o aplicativo, usando o componente raiz do `NgModule` especificado.
-
-    import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
-
-    platformBrowserDynamic().bootstrapModule(AppModule);
-
-> **Sintaxe de Template**
+# Sintaxe para Template
 
 #### Vincula `(bind)` o valor de uma propriedade ao resultado da expressão firstName.
     
@@ -46,9 +38,9 @@
         <button (click)="movieplayer.play()">
     </video>
 
-#### O símbolo `*` transforma o elemento atual em um modelo embutido. Equivalente a: <ng-template [example]="myExpression"> <p> ... </p> </ng-template>
+#### O símbolo `*` transforma o elemento atual em um modelo embutido. Equivalente a: <ng-template [myDirective]="myExpression">...</ng-template>
 
-    <p *example="myExpression"> ... </p>
+    <p *myDirective="myExpression"> ... </p>
 
 #### Transforma o valor atual da expressão cardNumber por meio do pipe denominado myCardNumberFormatter.
 
