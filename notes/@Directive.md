@@ -41,6 +41,37 @@
 
 - **outputs?** - Enumera o conjunto de propriedades de saída associadas ao evento:
 
+      outputs?: string[]
+      
+     > Quando uma propriedade de saída emite um evento, um manipulador de eventos anexado a esse evento no modelo é chamado.
+     > A propriedade outputs define um conjunto de **diretivaProperty** para a configuração **bindingProperty**:
+
+     - `directivaProperty:` especifica a propriedade do componente que emite eventos.
+     - `bindingProperty:` especifica a propriedade DOM à qual o manipulador de eventos está anexado.
+     
+      @Component({
+        selector: 'child-dir',
+        outputs: [ 'bankNameChange' ]
+        template: `<input (input)="bankNameChange.emit($event.target.value)" />`
+      })
+      class ChildDir {
+        bankNameChange: EventEmitter<string> = new EventEmitter<string>();
+      }
+
+      @Component({
+        selector: 'main',
+        template: `
+          {{ bankName }} <child-dir (bankNameChange)="onBankNameChange($event)"></child-dir>
+        `
+      })
+      class MainComponent {
+        bankName: string;
+
+        onBankNameChange(bankName: string) {
+          this.bankName = bankName;
+        }
+      }
+
 - **providers?** - Configura o injetor desta diretiva ou componente com um token que mapeia para um provedor de uma dependência:
 
 - **exportAs?** - Define o nome que pode ser usado no modelo para atribuir esta diretiva a uma variável:
