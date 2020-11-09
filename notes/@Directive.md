@@ -74,12 +74,71 @@
 
 - **providers?** - Configura o injetor desta diretiva ou componente com um token que mapeia para um provedor de uma dependência:
 
+      providers?: Provider[]
+
 - **exportAs?** - Define o nome que pode ser usado no modelo para atribuir esta diretiva a uma variável:
+
+      exportAs?: string
+      
+      @Directive({
+        selector: 'child-dir',
+        exportAs: 'child'
+      })
+      class ChildDir { ... }
+
+      @Component({
+        selector: 'main',
+        template: `<child-dir #c="child"></child-dir>`
+      })
+      class MainComponent { ... }
 
 - **queries?** - Configura as consultas que serão injetadas na diretiva:
 
+      queries?: {
+        [key: string]: any;
+      }
+      
+     > As consultas de conteúdo são definidas antes que o retorno de chamada **ngAfterContentInit** seja chamado. As consultas de visualização são definidas antes que o retorno de chamada **ngAfterViewInit** seja chamado.
+     > O exemplo a seguir mostra como as consultas são definidas e quando seus resultados estão disponíveis em ganchos de ciclo de vida:
+     
+      @Component({
+      selector: 'someDir',
+        queries: {
+          contentChildren: new ContentChildren(ChildDirective),
+          viewChildren: new ViewChildren(ChildDirective)
+        },
+        template: '<child-directive></child-directive>'
+      })
+      class SomeDir {
+        contentChildren: QueryList<ChildDirective>,
+        viewChildren: QueryList<ChildDirective>
+
+        ngAfterContentInit() {
+          // contentChildren está definido
+        }
+
+        ngAfterViewInit() {
+          // viewChildren está definido
+        }
+      }
+
 - **host?** - Mapeia as propriedades da classe para hospedar ligações de elemento para propriedades, atributos e eventos, usando um conjunto de pares de chave-valor:
 
-- **jit?** - Quando presente, esta diretiva / componente é ignorado pelo compilador AOT. Ele permanece no código distribuído e o compilador JIT tenta compilá-lo em tempo de execução, no navegador. Para garantir o comportamento correto, o aplicativo deve importar @angular/compiler:
+      host?: {
+        [key: string]: string;
+      }
+      
+     > O Angular verifica automaticamente as ligações de propriedade do host durante a detecção de alterações. Se uma ligação muda, o Angular atualiza o elemento de host da diretiva. Quando a chave é uma propriedade do elemento host, o valor da propriedade é propagado para a propriedade DOM especificada.
+
+     > Quando a chave é um atributo estático no DOM, o valor do atributo é propagado para a propriedade especificada no elemento host.
+
+     Para manipulação de eventos:
+
+     > A chave é o evento DOM que a diretiva escuta. Para ouvir eventos globais, adicione o destino ao nome do evento. O alvo pode ser a janela, o documento ou corpo.
+O valor é a instrução a ser executada quando o evento ocorrer. Se a instrução for avaliada como falsa, **preventDefault** será aplicado ao evento DOM. Um método manipulador pode se referir à variável local **$event**.
+
+- **jit?** - Quando presente, esta diretiva/componente é ignorada pelo compilador **AOT**. Ele permanece no código distribuído e o compilador JIT tenta compilá-lo em tempo de execução, no navegador. Para garantir o comportamento correto, o aplicativo deve importar **@angular/compiler**:
+
+      jit?: true
 
 > LINK DE REFERÊNCIA: https://angular.io/api/core/Directive
