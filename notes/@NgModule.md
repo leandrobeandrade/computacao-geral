@@ -10,7 +10,10 @@
         exportações: [ ... ], 
         provedores: [ ... ],
         entryComponents: [ ... ],
-        bootstrap: [ ... ]
+        bootstrap: [ ... ],
+        schemas: [ ... ]
+        id: '',
+        jit: true
     })
 
     class MyModule {}
