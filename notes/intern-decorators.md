@@ -24,28 +24,28 @@ Vincula uma propriedade de elemento de host **(classe `valid`)** a uma proprieda
      @HostBinding('class.valid') isValid;
 
 ### @HostListener()
-Inscreve-se em um evento de elemento de host **(`click`)** com um método de diretiva/componente **onClick**, passando opcionalmente um argumento `($event)`, ver exemplo completo [aqui]:
+Inscreve-se em um evento de elemento de host **(`click`)** com um método de diretiva/componente **onClick**, passando opcionalmente um argumento `($event)`, ver exemplo completo [aqui](https://www.google.com):
 
     @HostListener('click', ['$event']) onClick(e) {
         ...
     }
 
 ### @ContentChild()
-Vincula o primeiro resultado da consulta de conteúdo do componente **(myFatherComponent)** a uma propriedade **(myChildComponent)** da classe, ver exemplo completo [aqui]:
+Vincula o primeiro resultado da consulta de conteúdo do componente **(myFatherComponent)** a uma propriedade **(myChildComponent)** da classe, ver exemplo completo [aqui](https://www.google.com):
 
     @ContentChild(myFatherComponent) myChildComponent;
 
 ### @ContentChildren()
-Vincula os resultados da consulta de conteúdo do componente **(myFatherComponent)** a uma propriedade **(myChildComponents)** da classe, ver exemplo completo [aqui]:
+Vincula os resultados da consulta de conteúdo do componente **(myFatherComponent)** a uma propriedade **(myChildComponents)** da classe, ver exemplo completo [aqui](https://www.google.com):
 
     @ContentChildren(myFatherComponent) myChildComponents;
 
 ### @ViewChild()
-Vincula o primeiro resultado da consulta de visualização do componente **(myFatherComponent)** a uma propriedade **(myChildComponent)** da classe. Não disponível para diretivas, ver exemplo completo [aqui]:
+Vincula o primeiro resultado da consulta de visualização do componente **(myFatherComponent)** a uma propriedade **(myChildComponent)** da classe. Não disponível para diretivas, ver exemplo completo [aqui](https://www.google.com):
 
     @ViewChild (myFatherComponent) myChildComponent;
 
 ### @ViewChildren()
-Vincula os resultados da consulta de visualização de componente **(myFatherComponent)** a uma propriedade **(myChildComponents)** da classe. Não disponível para diretivas, ver exemplo completo [aqui]:
+Vincula os resultados da consulta de visualização de componente **(myFatherComponent)** a uma propriedade **(myChildComponents)** da classe. Não disponível para diretivas, ver exemplo completo [aqui](https://www.google.com):
 
     @ViewChildren (myPredicate) myChildComponents;
