@@ -49,3 +49,5 @@ Vincula o primeiro resultado da consulta de visualização do componente **(myFa
 Vincula os resultados da consulta de visualização de componente **(myFatherComponent)** a uma propriedade **(myChildComponents)** da classe. Não disponível para diretivas, ver exemplo completo [aqui](https://www.google.com):
 
     @ViewChildren (myPredicate) myChildComponents;
+
+> LINK DE REFERÊNCIA: https://angular.io/guide/cheatsheet
