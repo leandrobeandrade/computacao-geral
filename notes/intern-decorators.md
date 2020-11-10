@@ -31,16 +31,21 @@ Inscreve-se em um evento de elemento de host **(`click`)** com um método de dir
     }
 
 ### @ContentChild()
-Vincula o primeiro resultado da consulta de conteúdo do componente (myPredicate) a uma propriedade (myChildComponent) da classe, ver exemplo completo [aqui]
+Vincula o primeiro resultado da consulta de conteúdo do componente **(myFatherComponent)** a uma propriedade **(myChildComponent)** da classe, ver exemplo completo [aqui]:
 
-    @ContentChild (myPredicate) myChildComponent;
+    @ContentChild(myFatherComponent) myChildComponent;
 
+### @ContentChildren()
+Vincula os resultados da consulta de conteúdo do componente **(myFatherComponent)** a uma propriedade **(myChildComponents)** da classe, ver exemplo completo [aqui]:
 
-@ContentChildren (myPredicate) myChildComponents;
-Vincula os resultados da consulta de conteúdo do componente (myPredicate) a uma propriedade (myChildComponents) da classe.
+    @ContentChildren(myFatherComponent) myChildComponents;
 
-@ViewChild (myPredicate) myChildComponent;
-Vincula o primeiro resultado da consulta de visualização do componente (myPredicate) a uma propriedade (myChildComponent) da classe. Não disponível para diretivas.
+### @ViewChild()
+Vincula o primeiro resultado da consulta de visualização do componente **(myFatherComponent)** a uma propriedade **(myChildComponent)** da classe. Não disponível para diretivas, ver exemplo completo [aqui]:
 
-@ViewChildren (myPredicate) myChildComponents;
-Vincula os resultados da consulta de visualização de componente (myPredicate) a uma propriedade (myChildComponents) da classe. Não disponível para diretivas.
+    @ViewChild (myFatherComponent) myChildComponent;
+
+### @ViewChildren()
+Vincula os resultados da consulta de visualização de componente **(myFatherComponent)** a uma propriedade **(myChildComponents)** da classe. Não disponível para diretivas, ver exemplo completo [aqui]:
+
+    @ViewChildren (myPredicate) myChildComponents;
