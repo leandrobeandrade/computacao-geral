@@ -11,17 +11,30 @@ Declara uma propriedade de entrada que você pode atualizar por meio de vincula�
 
     <my-cmp [myProperty]="someExpression">
 
-@Output () meuEvento = novo EventEmitter ();
-Declara uma propriedade de saída que dispara eventos que você pode assinar com uma associação de evento (exemplo: <my-cmp (myEvent) = "doSomething ()">).
+### @Output()
+Declara uma propriedade de saída que dispara eventos que você pode assinar com uma associação de evento, ver exemplo completo [aqui](https://www.google.com):
 
-@HostBinding ('class.valid') isValid;
-Vincula uma propriedade de elemento de host (aqui, a classe CSS válida) a uma propriedade de diretiva / componente (isValid).
+    myEvent = new EventEmitter();
+    
+    <my-cmp (myEvent)="doSomething()">
+    
+### @HostBinding()
+Vincula uma propriedade de elemento de host **(classe `valid`)** a uma propriedade de diretiva/componente **isValid**, ver exemplo completo [aqui](https://www.google.com):
 
-@HostListener ('click', ['$ event']) onClick (e) {...}
-Inscreve-se em um evento de elemento de host (click) com um método de diretiva / componente (onClick), passando opcionalmente um argumento ($ event).
+     @HostBinding('class.valid') isValid;
 
-@ContentChild (myPredicate) myChildComponent;
-Vincula o primeiro resultado da consulta de conteúdo do componente (myPredicate) a uma propriedade (myChildComponent) da classe.
+### @HostListener()
+Inscreve-se em um evento de elemento de host **(`click`)** com um método de diretiva/componente **onClick**, passando opcionalmente um argumento `($event)`, ver exemplo completo [aqui]:
+
+    @HostListener('click', ['$event']) onClick(e) {
+        ...
+    }
+
+### @ContentChild()
+Vincula o primeiro resultado da consulta de conteúdo do componente (myPredicate) a uma propriedade (myChildComponent) da classe, ver exemplo completo [aqui]
+
+    @ContentChild (myPredicate) myChildComponent;
+
 
 @ContentChildren (myPredicate) myChildComponents;
 Vincula os resultados da consulta de conteúdo do componente (myPredicate) a uma propriedade (myChildComponents) da classe.
