@@ -33,3 +33,5 @@
       
      > O resultado da expressão é passado para o método **transform()** do pipe.
     Um pipe deve pertencer a um **NgModule** para estar disponível para um modelo. Para torná-lo membro de um NgModule, liste-o no campo de declarações dos metadados NgModule.
+    
+> LINK DE REFERÊNCIA: https://angular.io/api/core/Pipe
