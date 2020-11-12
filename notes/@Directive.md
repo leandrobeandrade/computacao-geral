@@ -1,7 +1,7 @@
 # @Directive
 > Decorator que marca uma classe como uma diretiva Angular. Você pode definir suas próprias diretivas para anexar comportamento personalizado a elementos no DOM.
 
-- **selector?** -O seletor CSS que identifica esta diretiva em um modelo e dispara a instanciação da diretiva:
+- **selector? -** O seletor CSS que identifica esta diretiva em um modelo e dispara a instanciação da diretiva:
 
       selector?: string
 
@@ -15,7 +15,7 @@
       > Angular só permite que as diretivas sejam aplicadas em seletores CSS que não ultrapassam os limites dos elementos.
       >Para o seguinte modelo de HTML, uma diretiva com um seletor de entrada **[type=text]** seria instanciada apenas no elemento <input type = "text">.
 
-- **inputs?** - Enumera o conjunto de propriedades de entrada vinculadas a dados para uma diretiva:
+- **inputs? -** Enumera o conjunto de propriedades de entrada vinculadas a dados para uma diretiva:
 
       inputs?: string[]
       
@@ -39,7 +39,7 @@
             id: string;
           }
 
-- **outputs?** - Enumera o conjunto de propriedades de saída associadas ao evento:
+- **outputs? -** Enumera o conjunto de propriedades de saída associadas ao evento:
 
       outputs?: string[]
       
@@ -72,11 +72,11 @@
         }
       }
 
-- **providers?** - Configura o injetor desta diretiva ou componente com um token que mapeia para um provedor de uma dependência:
+- **providers? -** Configura o injetor desta diretiva ou componente com um token que mapeia para um provedor de uma dependência:
 
       providers?: Provider[]
 
-- **exportAs?** - Define o nome que pode ser usado no modelo para atribuir esta diretiva a uma variável:
+- **exportAs? -** Define o nome que pode ser usado no modelo para atribuir esta diretiva a uma variável:
 
       exportAs?: string
       
@@ -92,7 +92,7 @@
       })
       class MainComponent { ... }
 
-- **queries?** - Configura as consultas que serão injetadas na diretiva:
+- **queries? -** Configura as consultas que serão injetadas na diretiva:
 
       queries?: {
         [key: string]: any;
@@ -122,7 +122,7 @@
         }
       }
 
-- **host?** - Mapeia as propriedades da classe para hospedar ligações de elemento para propriedades, atributos e eventos, usando um conjunto de pares de chave-valor:
+- **host? -** Mapeia as propriedades da classe para hospedar ligações de elemento para propriedades, atributos e eventos, usando um conjunto de pares de chave-valor:
 
       host?: {
         [key: string]: string;
@@ -137,7 +137,7 @@
      > A chave é o evento DOM que a diretiva escuta. Para ouvir eventos globais, adicione o destino ao nome do evento. O alvo pode ser a janela, o documento ou corpo.
 O valor é a instrução a ser executada quando o evento ocorrer. Se a instrução for avaliada como falsa, **preventDefault** será aplicado ao evento DOM. Um método manipulador pode se referir à variável local **$event**.
 
-- **jit?** - Quando presente, esta diretiva/componente é ignorada pelo compilador **AOT**. Ele permanece no código distribuído e o compilador JIT tenta compilá-lo em tempo de execução, no navegador. Para garantir o comportamento correto, o aplicativo deve importar **@angular/compiler**:
+- **jit? -** Quando presente, esta diretiva/componente é ignorada pelo compilador **AOT**. Ele permanece no código distribuído e o compilador JIT tenta compilá-lo em tempo de execução, no navegador. Para garantir o comportamento correto, o aplicativo deve importar **@angular/compiler**:
 
       jit?: true
 
