@@ -11,7 +11,7 @@ Repositório dedicado a uma breve, sucinta e rápida documentação sobre o fram
 ## Links acerca do desenvolvimento com o framework
 
 - [Angular](https://angular.io) - documentação oficial
-- [Typescript](https://www.typescriptlang.org) - superset JavaScript utilizado pelo framework
+- [TypeScript](https://www.typescriptlang.org) - superset JavaScript utilizado pelo framework
 - [RxJS](https://rxjs.dev) - pacote de utilitários que auxiliam no desenvolvimento
 - [StackBlitz](https://stackblitz.com) - ambiente de desenvolvimento online com fácil e rápida configuração para executar uma aplicação 
 
