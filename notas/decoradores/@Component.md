@@ -73,7 +73,7 @@
 - **interpolation? -** Substitui os delimitadores de início e fim de encapsulamento padrão **`{{ e }}`**
 
       interpolation?: [string, string]  interpolation: ['<|', '|>']
-      
+  
       <p> {{ clicks + 1 }} </p>         <p> <| clicks + 1 |> </p>
 
 - **entryComponents? -** Um conjunto de componentes que devem ser compilados junto com este componente. Para cada componente listado aqui, o Angular cria um ComponentFactory e o armazena no ComponentFactoryResolver.
