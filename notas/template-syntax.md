@@ -26,7 +26,7 @@
 
 #### Vincula o conteúdo de texto a uma string interpolada, por exemplo, "Hello Seabiscuit".
     
-    <p> Olá {{ponyName}} </p>
+    <p> Hello {{ponyName}} </p>
 
 #### Configura a vinculação de dados bidirecional. Equivalente a: <my-cmp [title]="name" (titleChange)="name = $event">
     
