@@ -22,7 +22,7 @@
 
           let filter = args.toLocaleLowerCase();
           return val.filter(
-            v => v.toLocaleLowerCase().indexOf(filtro) != -1
+            v => v.toLocaleLowerCase().indexOf(filter) != -1
           );    
         }
 
@@ -35,3 +35,5 @@
     Um pipe deve pertencer a um **NgModule** para estar disponível para um modelo. Para torná-lo membro de um NgModule, liste-o no campo de declarações dos metadados NgModule.
     
 > LINK DE REFERÊNCIA: https://angular.io/api/core/Pipe
+
+> LINK DE EXEMPLO [STACKBLITZ:](https://stackblitz.com/edit/doc-pipe)
