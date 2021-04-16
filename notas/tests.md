@@ -1,4 +1,4 @@
-# forkjoin services ... along time
+# forkjoin services ...
 
 
 ########
@@ -6,7 +6,7 @@
 
 ##
 
-### test ...
+### test
 
 ### of operator rxjs
 
