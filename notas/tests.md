@@ -10,4 +10,3 @@
 
 ### of operator rxjs
 
-...
