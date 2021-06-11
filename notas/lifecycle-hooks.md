@@ -4,7 +4,7 @@
 
 - **constructor() -** Chamado antes de qualquer outro gancho de ciclo de vida. Use-o para injetar dependências, evitar usá-lo para realizar ações:
 
-      construtor(myService: MyService, ...) {...}
+      construtor(private myService: MyService, ...) {...}
 
 - **ngOnChanges() -** Chamado após cada alteração nas propriedades de entrada e antes de processar o conteúdo ou visualizações filhas:
 
