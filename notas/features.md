@@ -21,5 +21,5 @@ Transforma um **`Objeto`** ou **`Mapa`** em uma matriz de pares de chave-valor.
     </div>
 
 
-...
+
 
