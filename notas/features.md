@@ -20,8 +20,3 @@ Transforma um **`Objeto`** ou **`Mapa`** em uma matriz de pares de chave-valor.
       {{item.key}}: {{item.value}}                   id: 1, name: 'Fulano' 
     </div>
 
-
-....
-
-....
-
