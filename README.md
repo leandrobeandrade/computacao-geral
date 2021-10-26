@@ -13,6 +13,6 @@ Repositório dedicado a uma breve, sucinta e rápida documentação sobre o fram
 - [Angular](https://angular.io) - documentação oficial
 - [TypeScript](https://www.typescriptlang.org) - superset JavaScript utilizado pelo framework
 - [RxJS](https://rxjs.dev) - pacote de utilitários que auxiliam no desenvolvimento
-- [StackBlitz](https://stackblitz.com) - ambiente de desenvolvimento online com fácil e rápida configuração para executar uma aplicação 
+- [StackBlitz](https://stackblitz.com), [ngRun](https://ng-run.com), [CodeSandbox](https://codesandbox.io/?from-app=1) - ambiente de desenvolvimento online com fácil e rápida configuração para executar uma aplicação 
 
 ![angular](https://cdn-images-1.medium.com/max/1600/1*J_-vtvcqV1-v14WqkPWhiQ.png)
