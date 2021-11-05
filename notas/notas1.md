@@ -32,4 +32,14 @@
       
  - 2 - Componente Angular
  
-      import { externalFunc } from "./external";
+       import { externalFunc } from "./external";
+
+       p1 = "EXT";
+       p2;
+       p3 = "INT";
+
+       constructor() {}
+
+       ngOnInit() {
+         externalFunc(this.p1, this.p2, this.p3);
+       }
