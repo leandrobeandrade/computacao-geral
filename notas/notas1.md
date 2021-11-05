@@ -16,3 +16,20 @@
       imports: [ ..., ExampleModule ]
       
       export class OtherModule
+
+> Importar função externa dentro de componente Angular
+
+- 1 - Arquivo Externo:
+
+      export function externalFunc(param1, param2, param3) {
+        if (param1 === 'EXT') {
+          param2 = 10;
+          console.log(`O param2 é: ${param2} e o param3 é ${param3}`);
+        } else {
+          console.log(`param1 é: ${param1}, param2 é: ${param2} e param3 é ${param3}`);
+        }
+      }
+      
+ - 2 - Componente Angular
+ 
+      import { externalFunc } from "./external";
