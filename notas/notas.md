@@ -16,6 +16,8 @@
       imports: [ ..., ExampleModule ]
       
       export class OtherModule
+      
+---
 
 > Importar função externa dentro de componente Angular
 
