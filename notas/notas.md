@@ -45,3 +45,5 @@
        ngOnInit() {
          externalFunc(this.p1, this.p2, this.p3);
        }
+       
+---
