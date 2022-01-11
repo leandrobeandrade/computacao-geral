@@ -29,3 +29,10 @@ Transforma um **`Objeto`** ou **`Mapa`** em uma matriz de pares de chave-valor. 
       {{ item.key }}: {{ item.value }}                   id: bar, 2: foo
     </div>
 
+# ngPlural (diretiva)
+
+    <p [ngPlural]="items.length">
+      <ng-template> ngPluralCase="=0">Nenhum item</ng-template>
+      <ng-template> ngPluralCase="=1">Um item</ng-template>
+      <ng-template> ngPluralCase="=0">{{ items.length }} itens</ng-template>
+    </p>
