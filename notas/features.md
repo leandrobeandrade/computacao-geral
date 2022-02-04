@@ -36,3 +36,5 @@ Transforma um **`Objeto`** ou **`Mapa`** em uma matriz de pares de chave-valor. 
       <ng-template> ngPluralCase="=1">Um item</ng-template>
       <ng-template> ngPluralCase="=0">{{ items.length }} itens</ng-template>
     </p>
+    
+    
