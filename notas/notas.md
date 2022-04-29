@@ -55,5 +55,3 @@
 - No metadado @Component tbm é possível declarar variáveis do tipo @Input com o nome utilizado externamente. Ex: inputs: ['cursos']
 - @EventEmitter pode ser utilizado no HTML como um evento personalizado. Ex: <input setar="algo($event)"> @Output() setar = new EventEmitter() algo(ev) { } 
 
-    
----    
