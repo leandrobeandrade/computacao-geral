@@ -46,16 +46,12 @@
          externalFunc(this.p1, this.p2, this.p3);
        }
        
-- Tbm funciona declarar o caminho do bootsrap instalado no arquivo styles.scss ao invés de declarar no arquivo angular.json
-- Diretivas são classes sem HTML enquanto Componentes são classes com HTML
-- Eventos Html possuem interfaces para serem utilizadas. Ex: this.input = <HTMLInputElement>(event.target).value; / Dá para pegar o tipo no log do browser
-- ngModel refere-se a uma propriedade no ts. Ex: prop
-- ngModelChange atualiza sempre que esse model (propriedade) sofrer mudança de valor. Ex: (ngModelChange)="prop = event"
-- No metadado @Input() o valor dentro dos parênteses serve para expor essa propriedade com um nome diferente da variável. Ex: @Input('cursos') nomeCursos: string
-- No metadado @Component tbm é possível declarar variáveis do tipo @Input com o nome utilizado externamente. Ex: inputs: ['cursos']
-- @EventEmitter pode ser utilizado no HTML como um evento personalizado. Ex: <input setar="algo($event)"> @Output() setar = new EventEmitter() algo(ev) { } 
+# Paradigmas de Programação
 
-    
-    
-dasdas
+Paradigmas de programação são diferentes formas ou estilos em que um determinado programa ou linguagem de programação pode ser organizado. Os paradigmas de programação não são mutuamente exclusivos, no sentido de que você pode usar práticas de diferentes paradigmas ao mesmo tempo sem nenhum problema.
+
+Existem linguagens que foram construídas com um determinado paradigma em mente e possuem recursos que facilitam esse tipo de programação mais do que outras como Haskel por exemplo. Mas também existem linguagens "multiparadigmas", o que significa que podemos adaptar o código para se adequar a um determinado paradigma ou outro, como JavaScript e Python por exemplo.
+
+
+
     
