@@ -129,3 +129,7 @@ A programação declarativa tem tudo a ver com esconder a complexidade e aproxim
 ## Orientada a Objetos
 
 O conceito central da POO é separar interesses em entidades que são codificadas como objetos. Cada entidade agrupará um determinado conjunto de informações (propriedades) e ações (métodos) que podem ser realizadas pela entidade. Faz uso pesado de classes (que são uma maneira de criar novos objetos a partir de um blueprint ou clichê que o programador define). Objetos que são criados a partir de uma classe são chamados de instâncias.
+
+- 1
+- - 2
+- - - 3
