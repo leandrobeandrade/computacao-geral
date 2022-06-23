@@ -16,3 +16,7 @@ Repositório dedicado a uma breve, sucinta e rápida documentação sobre o fram
 - [StackBlitz](https://stackblitz.com), [ngRun](https://ng-run.com), [CodeSandbox](https://codesandbox.io/?from-app=1) - ambiente de desenvolvimento online com fácil e rápida configuração para executar uma aplicação 
 
 ![angular](https://cdn-images-1.medium.com/max/1600/1*J_-vtvcqV1-v14WqkPWhiQ.png)
+
+- - 
+- - -
+- - - -
