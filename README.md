@@ -17,75 +17,75 @@ Repositório dedicado a uma breve, sucinta e rápida documentação sobre o fram
 
 ![angular](https://cdn-images-1.medium.com/max/1600/1*J_-vtvcqV1-v14WqkPWhiQ.png)
 
-  interface Veiculo {
-      String getModelo();
-      void acelerar();
-      void desacelerar();
+    interface Veiculo {
+        String getModelo();
+        void acelerar();
+        void desacelerar();
 
-      default String ligarAlarme() {
-          return "Alarme do carro ligado!";
-      }
+        default String ligarAlarme() {
+            return "Alarme do carro ligado!";
+        }
 
-      default String desligarAlarme() {
-          return "Alarme do carro desligado!";
-      }
-  }
+        default String desligarAlarme() {
+            return "Alarme do carro desligado!";
+        }
+    }
 
-  interface Alarme {
-      default String ligarAlarme() {
-          return "Alarme ligado!";
-      }
+    interface Alarme {
+        default String ligarAlarme() {
+            return "Alarme ligado!";
+        }
 
-      default String desligarAlarme() {
-          return "Alarme desligado!";
-      }
-  }
+        default String desligarAlarme() {
+            return "Alarme desligado!";
+        }
+    }
 
-  class Carro implements Veiculo, Alarme {
-      private String modelo;
+    class Carro implements Veiculo, Alarme {
+        private String modelo;
 
-      public Carro(String modelo) {
-          this.modelo = modelo; 
-      }
+        public Carro(String modelo) {
+            this.modelo = modelo; 
+        }
 
-      @Override
-      public String getModelo() {
-          return modelo;
-      }
+        @Override
+        public String getModelo() {
+            return modelo;
+        }
 
-      @Override
-      public void acelerar() {
-          System.out.println("O carro esta acelerando!");
-      }
+        @Override
+        public void acelerar() {
+            System.out.println("O carro esta acelerando!");
+        }
 
-      @Override
-      public void desacelerar() {
-          System.out.println("O carro esta desacelerando!");
-      }
+        @Override
+        public void desacelerar() {
+            System.out.println("O carro esta desacelerando!");
+        }
 
-      @Override
-      public String ligarAlarme() {
-          return Veiculo.super.ligarAlarme();
-      }
+        @Override
+        public String ligarAlarme() {
+            return Veiculo.super.ligarAlarme();
+        }
 
-      @Override
-      public String desligarAlarme() {
-          return Alarme.super.ligarAlarme();
-      }
-  }
+        @Override
+        public String desligarAlarme() {
+            return Alarme.super.ligarAlarme();
+        }
+    }
 
-  class Main {
-      public static void main(String[] args) {
-          Carro carro = new Carro("AZ21");
+    class Main {
+        public static void main(String[] args) {
+            Carro carro = new Carro("AZ21");
 
-          System.out.println();
-          System.out.println(carro.getModelo());
-          System.out.println();
+            System.out.println();
+            System.out.println(carro.getModelo());
+            System.out.println();
 
-          carro.acelerar();
-          carro.desacelerar();
+            carro.acelerar();
+            carro.desacelerar();
 
-          System.out.println(carro.ligarAlarme());
-          System.out.println(carro.desligarAlarme());
-      }
-  }
+            System.out.println(carro.ligarAlarme());
+            System.out.println(carro.desligarAlarme());
+        }
+    }
