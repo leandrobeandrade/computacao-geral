@@ -31,4 +31,23 @@ Há também uma versão em letras maiúsculas, onde todas as letras estão em ma
 
 A versão em maiúscula é usada para declarar constantes na maioria das linguagens de programação. Uma constante é um item de dados cujo valor não muda ao longo da vida de um programa.
 
+### Kebab case
+
+> Sintaxe: separa cada palavra com um traço (-).
+
+A diferença entre a caixa de cobra e a caixa de kebab é que a caixa de kebab separa cada palavra com um traço, -, em vez de um sublinhado.
+
+Portanto, todas as palavras são minúsculas e cada palavra é separada por um traço.
+
+O caso kebab é outra das formas mais legíveis por humanos de combinar várias palavras em uma única palavra.
+
+Aqui estão alguns exemplos de como você usaria o kebab case:
+
+number-of-donuts = 34
+
+fave-phrase = "Hello World"
+Você encontrará casos de kebab principalmente em URLs.
+
+Um URL (abreviação de Uniform Resource Locator) é um endereço exclusivo para acessar um recurso na Web.
+
 :arrow_right_hook: [link de referência](https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference)
