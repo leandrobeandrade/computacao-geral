@@ -42,4 +42,19 @@ Todas as palavras são minúsculas e cada palavra é separada por um traço.
 
 Você encontrará kebab case principalmente em URLs (abreviação de Uniform Resource Locator), é um endereço exclusivo para acessar um recurso na Web.
 
+### Camel Case
+
+> Sintaxe: primeira palavra minúscula, em seguida, coloca-se em maiúscula a primeira letra de cada palavra que se segue.
+
+Assim, uma letra maiúscula aparece no início da segunda palavra e em cada nova palavra subseqüente que a segue.
+
+Aqui estão alguns exemplos de como você usaria a caixa de camelo:
+
+numberOfDonuts = 34
+
+favePhrase = "Hello World"
+No exemplo numberOfDonuts, a primeira palavra numberé minúscula. Então, a primeira letra da segunda palavra, Of, é maiúscula, assim como a primeira letra da terceira palavra, Donuts.
+
+Você encontrará camel case em Java, JavaScript e TypeScript para criar nomes de variáveis, funções e métodos.
+
 :arrow_right_hook: [link de referência](https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference)
