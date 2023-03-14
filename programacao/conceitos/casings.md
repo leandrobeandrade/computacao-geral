@@ -49,6 +49,11 @@ Você encontrará kebab case principalmente em URLs (abreviação de Uniform Res
       idadeDaPessoa = 18
 
 Assim, uma letra maiúscula aparece no início da segunda palavra e em cada nova palavra subseqüente que a segue.
+
 Você encontrará camel case em Java, JavaScript e TypeScript para criar nomes de variáveis, funções e métodos.
+
+### Pascal Case
+
+> Sintaxe: 
 
 :arrow_right_hook: [link de referência](https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference)
