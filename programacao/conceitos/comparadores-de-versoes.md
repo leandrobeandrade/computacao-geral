@@ -38,8 +38,8 @@ Em arquivos package.json, package-lock.json ou outro que especifique dependênci
 
       "^4.0.1"
 
-- permite alterações que não modifiquem o identificador que esteja mais à esquerda, aceitando atualizações minor e de patch para as versões 1.0.0 e superiores. Para versões que modificam apenas o patch, por exemplo ^0.0.1 o range permitido seria >=0.0.1 <0.0.2 , já que não podemos modificar o valor mais à esquerda, o 1.
-- o identificador mais à esquerda é o major. Qualquer versão minor ou de patch que seja maior ou igual ao especificado é válida. O ^ permitiria versões até 4.99.99 por exemplo mas, não permitira 5.0.0 porque o 4 é o dígito mais a esquerda em "^4.0.1".
+- permite alterações que não modifiquem o identificador que esteja mais à esquerda, aceitando atualizações minor e de patch para as versões 1.0.0 e superiores. Para versões que modificam apenas o patch, por exemplo ^0.0.1 o range permitido seria >=0.0.1 <0.0.2 , já que não podemos modificar o valor mais à esquerda, o 1
+- o identificador mais à esquerda é o major. Qualquer versão minor ou de patch que seja maior ou igual ao especificado é válida. O ^ permitiria versões até 4.99.99 por exemplo mas, não permitira 5.0.0 porque o 4 é o dígito mais a esquerda em "^4.0.1"
 
 ### Ilustrando o que foi dito:
 
