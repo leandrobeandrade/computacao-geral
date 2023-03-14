@@ -54,6 +54,12 @@ Você encontrará camel case em Java, JavaScript e TypeScript para criar nomes d
 
 ### Pascal Case
 
-> Sintaxe: 
+> Sintaxe: parecida com snake case, a diferença que o pascal case exige que a primeira letra da primeira palavra também seja maiúscula.
+
+      IdadeDaPessoa = 18
+
+Portanto, ao usar maiúsculas e minúsculas pascal, cada palavra começa com uma letra maiúscula (em contraste com a caixa camel, onde a primeira palavra está em minúscula).
+
+Você encontrará pascal case sendo utilizado para nomear classes na maioria das linguagens de programação.
 
 :arrow_right_hook: [link de referência](https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference)
