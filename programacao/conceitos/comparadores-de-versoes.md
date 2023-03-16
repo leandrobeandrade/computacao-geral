@@ -52,3 +52,5 @@ Em arquivos package.json, package-lock.json ou outro que especifique dependênci
 |^1.2	            | >=1.2.0 <2.0.0	(asim como ^1.2.0)
 |~1.2	            | >=1.2.0 <1.3.0	(assim como ~1.2.0)
 |^1	            | >=1.0.0 <2.0.0	 
+
+line
