@@ -11,10 +11,15 @@ O CI/CD geralmente pode incluir um 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗼𝘂𝘀 𝗗
 Existem diferentes etapas em um pipeline de CI/CD, como: 𝗯𝘂𝗶𝗹𝗱, 𝘁𝗲𝘀𝘁 𝗮𝗻𝗱 𝗱𝗲𝗽𝗹𝗼𝘆, mas pode haver muito mais atividades incluídas:
 
 🔹 Verificando o código do controle de versão e construindo-o
+
 🔹 Tendo portões preparados para diferentes tipos de aprovações
+
 🔹 Gerenciamento de variáveis de ambiente
+
 🔹 Reiniciando os serviços
+
 🔹 Execução de testes
+
 🔹 E mais...
 
 Algumas ferramentas CI/CD populares:
@@ -29,3 +34,5 @@ Algumas ferramentas CI/CD populares:
 A imagem mostra algumas ferramentas comumente utilizadas em diferentes etapas do processo DevOps.
 
 ![image](https://user-images.githubusercontent.com/24658433/225999255-c6481d7f-fbb9-4bda-9071-d988b7e86d6e.png)
+
+↪️ [link de referência](https://www.linkedin.com/posts/lgertel_devops-software-pipeline-activity-7026552798615941120-Xxpp?utm_source=share&utm_medium=member_desktop)
