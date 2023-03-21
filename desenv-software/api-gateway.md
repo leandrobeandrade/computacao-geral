@@ -28,4 +28,4 @@ O AG é responsável por tarefas como roteamento, autenticação e limitação d
 
 ![image](https://user-images.githubusercontent.com/24658433/226021584-8983b961-ca3c-4ee0-93c9-26f98c1ded40.png)
 
-[link de referência](https://www.linkedin.com/posts/lgertel_microsserviaexos-activity-7027471565264928768-ntld?utm_source=share&utm_medium=member_desktop)
+↪️ [link de referência](https://www.linkedin.com/posts/lgertel_microsserviaexos-activity-7027471565264928768-ntld?utm_source=share&utm_medium=member_desktop)
