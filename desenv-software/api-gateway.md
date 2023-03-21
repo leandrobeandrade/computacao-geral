@@ -27,3 +27,5 @@ O AG é responsável por tarefas como roteamento, autenticação e limitação d
 𝗔𝗣𝗜 𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝗶𝗻𝗴: AG pode ser usado para implementar versionamento de API, permitindo manter várias versões de uma API e gerenciar a transição de uma versão para outra.
 
 ![image](https://user-images.githubusercontent.com/24658433/226021584-8983b961-ca3c-4ee0-93c9-26f98c1ded40.png)
+
+[link de referência](https://www.linkedin.com/posts/lgertel_microsserviaexos-activity-7027471565264928768-ntld?utm_source=share&utm_medium=member_desktop)
