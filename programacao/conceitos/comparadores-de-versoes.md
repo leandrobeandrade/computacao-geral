@@ -53,4 +53,4 @@ Em arquivos package.json, package-lock.json ou outro que especifique dependênci
 |~1.2	            | >=1.2.0 <1.3.0	(assim como ~1.2.0)
 |^1	            | >=1.0.0 <2.0.0	 
 
-↪️ [link de referência](https://dev.to/jessilyneh/o-que-os-simbolos-e-representam-nas-dependencias-de-projetos-jm0)
+:arrow_right_hook: [link de referência](https://dev.to/jessilyneh/o-que-os-simbolos-e-representam-nas-dependencias-de-projetos-jm0)
