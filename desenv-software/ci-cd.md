@@ -35,4 +35,4 @@ A imagem mostra algumas ferramentas comumente utilizadas em diferentes etapas do
 
 ![image](https://user-images.githubusercontent.com/24658433/225999255-c6481d7f-fbb9-4bda-9071-d988b7e86d6e.png)
 
-↪️ [link de referência](https://www.linkedin.com/posts/lgertel_devops-software-pipeline-activity-7026552798615941120-Xxpp?utm_source=share&utm_medium=member_desktop)
+:arrow_right_hook: [link de referência](https://www.linkedin.com/posts/lgertel_devops-software-pipeline-activity-7026552798615941120-Xxpp?utm_source=share&utm_medium=member_desktop)
