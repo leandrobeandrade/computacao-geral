@@ -48,4 +48,4 @@ No entanto, os frameworks podem ser compreendidos como uma série de bibliotecas
 
   Contudo, eles podem ser uma dor de cabeça para instalar, como já comentamos, e às vezes trazem mais códigos e especificações do que o necessário. Desse modo, o código fica cheio de configurações que não são importantes no contexto. 
 
-https://blog.betrybe.com/framework-de-programacao/o-que-e-framework/
+:arrow_right_hook: [link de referência](https://blog.betrybe.com/framework-de-programacao/o-que-e-framework/)
