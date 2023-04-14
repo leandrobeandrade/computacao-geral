@@ -1,6 +1,6 @@
 # API Gateway
 
-Um API Gateway (AG) é um servidor que atua como um único ponto de entrada para um conjunto de microsserviços.O AG recebe as solicitações do cliente, as encaminha para o microsserviço apropriado e, em seguida, retorna a resposta do servidor ao cliente.
+Um API Gateway (AG) é um servidor que atua como um único ponto de entrada para um conjunto de microsserviços. O AG recebe as solicitações do cliente, as encaminha para o microsserviço apropriado e, em seguida, retorna a resposta do servidor ao cliente.
 
 O AG é responsável por tarefas como roteamento, autenticação e limitação de taxa. Isso permite que os microsserviços se concentrem em suas tarefas individuais e melhorem o desempenho geral e a escalabilidade do sistema.
 
