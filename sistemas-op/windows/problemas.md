@@ -22,5 +22,9 @@ Problema ao tentar apagar uma pasta ou arquivo em um diretório monitorado pelo 
 
     git config --global core.longpaths true
 
+> Sair do modo edição no terminal [ver aqui](https://pt.stackoverflow.com/questions/254320/como-salvar-e-sair-no-vim)
+
+    :q!
+
 :arrow_right_hook: [link de referência](https://www.javaprogramto.com/2020/04/git-filename-too-long.html) | 
 :arrow_right_hook: [link de referência](https://stackoverflow.com/questions/44307590/how-to-enable-using-git-repository-with-files-with-long-paths-for-all-users)
