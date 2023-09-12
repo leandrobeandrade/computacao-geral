@@ -103,7 +103,7 @@ Aqui não existe bala de prata. A idéia aqui é compartilhar um guia geral para
 
 Na maioria dos casos práticos, esta arquitetura vai ser o suficiente. Lembrando também que ela pode ser evoluída para uma versão orientada a micro serviços no futuro.
 
-### Quando utilizar uma Arquitetura de Micro Serviços
+## Quando utilizar uma Arquitetura de Micro Serviços
 
 A decisão aqui é mais complexa e pode envolver diversas considerações entre muitos dos pontos listados a seguir:
 
