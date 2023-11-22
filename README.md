@@ -147,13 +147,13 @@ Existem seis benefícios cruciais da Nuvem AWS:
 
 - Troque despesas iniciais por despesas variáveis
 
-      A Nuvem AWS garante que você pague apenas pelo que usar. Isso ajuda a evitar investimentos desnecessários em
-      infraestrutura, como servidores ou data centers.
+      A Nuvem AWS garante que você pague apenas pelo que usar. Isso ajuda a evitar investimentos
+      desnecessários em infraestrutura, como servidores ou data centers.
 
 - Beneficie-se de enormes economias de escala
 
-      Ao utilizar a computação em nuvem, você pode receber um custo variável mais barato. Devido ao grande número de
-      clientes na nuvem, você pode obter taxas de pagamento conforme o uso mais baixas.
+      Ao utilizar a computação em nuvem, você pode receber um custo variável mais barato. Devido ao
+      grande número de clientes na nuvem, você pode obter taxas de pagamento conforme o uso mais baixas.
 
 - Pare de adivinhar a capacidade
 
@@ -165,8 +165,8 @@ Existem seis benefícios cruciais da Nuvem AWS:
 
 - Pare de gastar dinheiro executando e mantendo data centers
 
-      A Nuvem AWS oferece mais tempo para você se concentrar em seus clientes e aplicativos. Ele faz isso gerenciando
-      servidores para você.
+      A Nuvem AWS oferece mais tempo para você se concentrar em seus clientes e aplicativos. Ele faz isso
+      gerenciando servidores para você.
 
 - Torne-se global em minutos
 
