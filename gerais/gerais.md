@@ -1,3 +1,3 @@
-Gerais ...
+Gerais
 
 
