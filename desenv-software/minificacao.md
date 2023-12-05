@@ -40,5 +40,6 @@ A minificação pode separar scripts complicados devido às variáveis dependent
 
 Apesar dessas desvantagens, geralmente vale a pena tentar a minificação para obter possíveis ganhos de desempenho. Saiba como minificar o CSS também.
 
-:arrow_right_hook: [link de referência](https://www.cloudflare.com/pt-br/learning/performance/why-minify-javascript-code/) | 
+:arrow_right_hook: [link de referência](https://www.cloudflare.com/pt-br/learning/performance/why-minify-javascript-code/)
+
 :arrow_right_hook: [link útil](https://www.uglifyjs.net/)
