@@ -27,3 +27,5 @@ O protocolo WebSocket é ideal quando se necessita de actualizações de dados e
 WebSocket fornece atualizações em tempo real, fornecendo uma ligação entre o servidor e os clientes. As tomadas Web são compatíveis com HTML5 e fornecem compatibilidade retroactiva com versões HTML mais antigas. Por conseguinte, são suportados por todos os navegadores web modernos - Google Chrome, Mozilla Firefox, Safari, e outros. 
 
 É também compatível entre plataformas: Android, iOS, aplicações web, e aplicações desktop. Um único servidor pode ter múltiplas ligações WebSocket abertas simultaneamente e mesmo múltiplas ligações ao mesmo cliente, permitindo fácil escalonamento.
+
+:arrow_right_hook: [link de referência](https://appmaster.io/pt/blog/o-que-sao-websockets-e-como-cria-los)
