@@ -12,9 +12,7 @@ Além disso, para entendermos o que os webhooks fornecem, podemos usar uma ferra
 
 ## Diferença entre webhook e API
 
-A principal diferença é que um webhook funciona automaticamente, enquanto a API precisa de uma solicitação para que a integração seja executada. 
-
-No caso de uma API, a conexão para enviar ou receber dados é aberta depois dessa solicitação. Então, a ação é concluída e a conexão é fechada.
+A principal diferença é que um webhook funciona automaticamente, enquanto a API precisa de uma solicitação para que a integração seja executada. No caso de uma API, a conexão para enviar ou receber dados é aberta depois dessa solicitação. Então, a ação é concluída e a conexão é fechada.
 
 Para usar uma API, é preciso ter conhecimento em programação – ou contar com pelo menos um programador na equipe. Já o webhook notifica o usuário sobre processos que ele deseja saber e seu uso não depende de um procedimento: basta configurar os parâmetros em uma URL, como vamos mostrar no próximo tópico, e as notificações serão enviadas quando determinada ação for tomada.
 
