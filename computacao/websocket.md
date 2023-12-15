@@ -1,4 +1,4 @@
-# Websocket
+# WebSocket
 
 WebSocket é uma tecnologia avançada para criar uma ligação entre um cliente e um servidor (browser e servidor) e permitir a comunicação entre eles em tempo real. A principal diferença com o WebSocket é que permite receber dados sem ter de enviar um pedido separado, como, por exemplo, acontece no HTTP.
 
@@ -24,7 +24,7 @@ O protocolo WebSocket é ideal quando se necessita de actualizações de dados e
 
 ## Porquê considerar a utilização do protocolo WebSocket?
 
-WebSocket fornece atualizações em tempo real, fornecendo uma ligação entre o servidor e os clientes. As tomadas Web são compatíveis com HTML5 e fornecem compatibilidade retroactiva com versões HTML mais antigas. Por conseguinte, são suportados por todos os navegadores web modernos - Google Chrome, Mozilla Firefox, Safari, e outros. 
+WebSocket fornece atualizações em tempo real, fornecendo uma ligação entre o servidor e os clientes. São compatíveis com HTML5 e fornecem compatibilidade retroactiva com versões HTML mais antigas. Por conseguinte, são suportados por todos os navegadores web modernos - Google Chrome, Mozilla Firefox, Safari, e outros. 
 
 É também compatível entre plataformas: Android, iOS, aplicações web, e aplicações desktop. Um único servidor pode ter múltiplas ligações WebSocket abertas simultaneamente e mesmo múltiplas ligações ao mesmo cliente, permitindo fácil escalonamento.
 
