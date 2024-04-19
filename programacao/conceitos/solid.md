@@ -1,6 +1,6 @@
 # S.O.L.I.D
 
-S.O.L.I.D são cinco princípios da programação orientada a objetos que facilitam no desenvolvimento de softwares, tornando-os fáceis de manter e estender. Esses princípios podem ser aplicados a qualquer linguagem de POO.
+`S`.`O`.`L`.`I`.`D` são cinco princípios da programação orientada a objetos que facilitam no desenvolvimento de softwares, tornando-os fáceis de manter e estender. Esses princípios podem ser aplicados a qualquer linguagem de POO.
 
 ## S - Single Responsibility (Principío de Responsabilidade única)
 
@@ -37,5 +37,6 @@ Porém, por algum motivo nós vamos ter que trocar essa lib e isso faz com o seu
 
 A ideia aqui é que a função de gerar o hash seja extraída e colocada em uma função que recebe a senha e retorna uma string que no caso é o hash e dentro dessa função você faça a implementação da sua lib. Pois assim você sempre estará respeitando a interface dela onde independente do que precise para você implementar essa lib a sua classe de criar usuários não irá quebrar.
 
-:arrow_right_hook: [link de referência](https://dev.to/cristuker/entendendo-solid-17e8) | 
+:arrow_right_hook: [link de referência](https://dev.to/cristuker/entendendo-solid-17e8)
+
 :arrow_right_hook: [link de referência](https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530)
