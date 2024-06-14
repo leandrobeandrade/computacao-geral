@@ -4,6 +4,7 @@ Anotações com links para documentações, artigos e postagens relacionados aos
 
 ## :closed_book:	Anotações Gerais
 
+- Ferramentais
 - Desenvolvimento de software
 - Conceitos gerais de programação
 - Sistemas operacionais
