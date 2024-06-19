@@ -1,12 +1,12 @@
-# Pq usar casing?
+# Pq usar case?
 
 Na grande maioria das linguagens de programação (se não todas), declarações de variáveis não podem conter espaços entre as palavras:
 
     idade da pessoa = 18  // erro
     
-Por isso existe a convenção denominada **`casing`** onde pode ser implementada em cada linguagem independentemente das suas regras para declarações de variáveis.
+Por isso existe a convenção denominada **`case`** onde pode ser implementada em cada linguagem independentemente das suas regras para declarações de variáveis.
 
-## Tipos de casings
+## Tipos de case
 
 - Snake case
 - Kebab case
