@@ -1,6 +1,6 @@
 # Computação geral
 
-Anotações com links para documentações, artigos e postagens relacionados aos mais diversos assuntos sobre computação em geral.
+Anotações com links para documentações, postagens e artigos relacionados aos mais diversos assuntos sobre computação em geral.
 
 ## :closed_book: Anotações Gerais
 
