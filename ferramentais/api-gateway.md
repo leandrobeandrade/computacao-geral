@@ -10,7 +10,7 @@ O AG é responsável por tarefas como roteamento, autenticação e limitação d
 
 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆: O AG pode ser usado para autenticar clientes e aplicar políticas de controle de acesso para os microsserviços. Isso ajuda a garantir que apenas clientes autorizados possam acessar os microsserviços e ajuda a evitar o acesso não autorizado.
 
-𝐓𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝗶𝗻𝗴 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐬 𝐚𝐧𝐝 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐞𝐬: AG pode transformar solicitações de entrada e respostas de saída para e para o back -end para atender às necessidades de diferentes clientes ou cumprir diferentes arquiteturas de back -end.
+𝐓𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝗶𝗻𝗴 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐬 𝐚𝐧𝐝 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐞𝐬: AG pode transformar solicitações de entrada e respostas de saída para o back-end, atendendo às necessidades de diferentes clientes ou cumprir diferentes arquiteturas de back -end.
 
 𝗥𝗮𝘁𝗲 𝗹𝗶𝗺𝗶𝘁𝗶𝗻𝗴: Você pode limitar o acesso do cliente a microsserviços com um AG. Isso pode ajudar a evitar ataques de negação de serviço e outros tipos de comportamento mal-intencionado.
 
